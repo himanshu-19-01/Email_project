@@ -8,7 +8,7 @@ EMAIL_ACCOUNT = "himanshumanral2003@gmail.com"
 PASSWORD = "qvicfgwfprwbnlrd"
 server_1 = "imap.gmail.com"
 
-
+#this is maibl login part
 mail = imaplib.IMAP4(server_1,port=993,timeout=60)
 mail.login(EMAIL_ACCOUNT, PASSWORD)
 
